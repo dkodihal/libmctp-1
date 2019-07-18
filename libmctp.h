@@ -34,7 +34,7 @@ struct mctp_hdr {
 /* Maximum size of *payload* data in a MCTP packet
  * @todo: dynamic sixing based on channel implementation.
  */
-#define MCTP_MTU	64
+#define MCTP_MTU	248
 
 /* packet buffers */
 
